@@ -150,18 +150,14 @@ def body_mass_index(weight, height):
     weight = float(input("Your weight in pounds(lbs): "))
     height = (input("Your height in feet and inches(5'11'' would be written as 5 11): "))
 
-    
-
-
     if len(height) <4:
-        height.split
+
         feet= int(height[0])
         inches= int(height[2])
     
         print((weight/2.205)/(((((feet*12)+inches)*2.54)/100)**2))
     else:
-    
-        height.split
+
         feet= int(height[0])
         inches= 10+int(height[3])
     
